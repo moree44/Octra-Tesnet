@@ -9,5 +9,6 @@ First you need Gitpod/Github.dev or WSL(Windows System Linux) for this code, nex
 https://www.gitpod.io/ - Just login with your github, create repo and go to terminal
 https://github.dev/ - Login with you github (Recommend)
 
-
-`wget https://github.com/octra-labs/wallet-gen/releases/latest/download/wallet-generator-linux-x64.tar.gz && tar -xzf wallet-generator-linux-x64.tar.gz && chmod +x wallet-generator && ./wallet-generator`
+```bash
+wget https://github.com/octra-labs/wallet-gen/releases/latest/download/wallet-generator-linux-x64.tar.gz && tar -xzf wallet-generator-linux-x64.tar.gz && chmod +x wallet-generator && ./wallet-generator`
+```
