@@ -1,12 +1,13 @@
 # Octra-Wallet-Generate
 
-Octra Wallet
+## Octra Wallet
 
 Just make a simple one time code to Generate Wallet for Octra Tesnet
 
 First you need Gitpod/Github.dev or WSL(Windows System Linux) for this code, next will update for Windows 
 
 https://www.gitpod.io/ - Just login with your github, create repo and go to terminal
+
 https://github.dev/ - Login with you github (Recommend)
 
 ```bash
