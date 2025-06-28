@@ -11,7 +11,6 @@ https://www.gitpod.io/ - Just login with your github, create repo and go to term
 https://github.dev/ - Login with you github (Recommend)
 
 ```bash
-git clone git clone https://github.com/octra-labs/wallet-gen.git &&
-cd wallet-gen && chmod +x ./start.sh
-./start.sh
+git clone https://github.com/octra-labs/wallet-gen.git && cd wallet-gen 
+&& unzip example.zip && chmod +x ./start.sh && ./start.sh
 ```
