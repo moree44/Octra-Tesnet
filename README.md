@@ -11,5 +11,7 @@ https://www.gitpod.io/ - Just login with your github, create repo and go to term
 https://github.dev/ - Login with you github (Recommend)
 
 ```bash
-wget https://github.com/octra-labs/wallet-gen/releases/latest/download/wallet-generator-linux-x64.tar.gz && tar -xzf wallet-generator-linux-x64.tar.gz && chmod +x wallet-generator && ./wallet-generator`
+git clone git clone https://github.com/octra-labs/wallet-gen.git &&
+cd wallet-gen && chmod +x ./start.sh
+./start.sh
 ```
