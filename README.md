@@ -15,4 +15,5 @@ git clone https://github.com/octra-labs/wallet-gen.git && cd wallet-gen
 && unzip example.zip && chmod +x ./start.sh && ./start.sh
 ```
 
+Testing 
 ## Update Soon
