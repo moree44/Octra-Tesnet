@@ -1,7 +1,6 @@
 # Octra-Tesnet
 
-## What’s This?
-0$ Cost for Octra Tesnet Guide, Easy use
+A 0$ Cost Tutorial and Easy to Use
 
 ## How to Get Started
 You’ll need one of these:
