@@ -25,62 +25,43 @@ chmod +x ./wallet-generator.sh
 
 ## Tesnet 2&3 Task
 
-Alright, here’s how you can get started with the Tesnet 2 & 3 task
+### How to install and run (super chill guide)
 
-1. **Open your terminal** using one of these methods (see 'How to Get Started' above):
-   - **Gitpod**: Open a terminal in your Gitpod workspace.
-   - **GitHub Codespace**: Open a terminal in your Codespace.
-   - **WSL (Windows Subsystem for Linux)**: Open your WSL terminal on Windows.
+1. **Pop open your terminal**
 
-2. Run these commands one by one:
+2. Copy-paste these commands, one by one:
 
 ```bash
 git clone https://github.com/octra-labs/octra_pre_client.git
 cd octra_pre_client
 python3 -m venv venv
-```
-
-3. **Activate your virtual environment:**
-- On **Linux/Mac**:
-  ```bash
-  source venv/bin/activate
-  ```
-- On **Windows**:
-  ```bash
-  venv\Scripts\activate
-  ```
-
-4. Install the requirements:
-```bash
+source venv/bin/activate   # on Windows: venv\Scripts\activate
 pip install -r requirements.txt
-```
-
-5. Copy the example wallet config:
-```bash
 cp wallet.json.example wallet.json
 ```
 
-6. Open `wallet.json` in your favorite text editor and update it with your wallet info. It should look like this:
+3. **Edit your `wallet.json`**
+Swap in your wallet deets:
 ```json
 {
-  "priv": "private-key-here",
+  "priv": "your-private-key",
   "addr": "octxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "rpc": "https://octra.network"
 }
 ```
 
-7. Now, to run the client:
-- On **Linux/Mac**:
+4. **Run it!**
+- On Mac/Linux:
   ```bash
   ./run.sh
   ```
-- On **Windows**:
+- On Windows:
   ```bash
   run.bat
   ```
 
-And that’s it! You’re all set. If you get stuck, just ask for help. Good luck and have fun!
+That’s you're good to go, Send some public Transaction or Private Transaction to other
 
 ---
 
-Drop your feedback or questions on Twitter
+Drop your feedback or if you facing issue with faucet reply on my X with your Octra Address
