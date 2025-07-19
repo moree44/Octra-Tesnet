@@ -9,7 +9,7 @@ You’ll need one of these:
 - **WSL (Windows Subsystem for Linux)** – For Windows users.
 
 
-## Quick Start
+## Generate Wallet
 Copy-paste this in your terminal:
 
 ```bash
@@ -19,6 +19,11 @@ unzip example.zip
 chmod +x ./wallet-generator.sh
 ./wallet-generator.sh
 ```
+**Get Testnet Tokens:**
+After you generate your Octra address, claim your free test tokens here:
+👉 [Octra Testnet Faucet](https://faucet.octra.network/)
+
+Just enter your Octra address (starts with 'oct'), complete the captcha, and click claim. You can request tokens once every 5 days.
 
 ## Tesnet 2&3 Task
 
@@ -66,6 +71,18 @@ Replace the placeholders with your actual Octra wallet details:
 - On Windows:
   ```bash
   run.bat
+  ```
+5. **Reminder!**
+
+If you close your Codespace or terminal and want to run `cli.py` again, just run this one-liner:
+
+- On Linux/Mac:
+  ```bash
+  cd octra_pre_client && source venv/bin/activate && python3 cli.py
+  ```
+- On Windows:
+  ```bash
+  cd octra_pre_client && venv\Scripts\activate && python3 cli.py
   ```
 
 That’s you're good to go, Send some public Transaction or Private Transaction to other
