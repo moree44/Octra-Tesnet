@@ -1,7 +1,5 @@
 # Octra-Tesnet
 
-Hey frens 0$ Cost for Octra Tesnet Guide
-
 ## What’s This?
 0$ Cost for Octra Tesnet Guide
 
