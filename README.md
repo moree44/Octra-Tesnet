@@ -21,7 +21,7 @@ chmod +x ./wallet-generator.sh
 ```
 **Get Testnet Tokens:**
 After you generate your Octra address, claim your free test tokens here:
-👉 [Octra Testnet Faucet](https://faucet.octra.network/)
+ [Octra Testnet Faucet](https://faucet.octra.network/)
 
 Just enter your Octra address (starts with 'oct'), complete the captcha, and click claim. You can request tokens once every 5 days.
 
@@ -72,7 +72,7 @@ Replace the placeholders with your actual Octra wallet details:
   ```bash
   run.bat
   ```
-5. **Reminder!**
+**Reminder!**
 
 If you close your Codespace or terminal and want to run `cli.py` again, just run this one-liner:
 
@@ -85,8 +85,9 @@ If you close your Codespace or terminal and want to run `cli.py` again, just run
   cd octra_pre_client && venv\Scripts\activate && python3 cli.py
   ```
 
-That’s you're good to go, Send some public Transaction or Private Transaction to other
+That’s you're good to go, send some public Transaction or Private Transaction to another
 
 ---
 
-Drop your feedback or if you facing issue with faucet reply on my X with your Octra Address
+Drop your feedback, or if you are facing an issue withthe  faucet, reply on my X with your Octra Address
+[@logscry on X](https://x.com/logscry/status/1946601765895655604)****
