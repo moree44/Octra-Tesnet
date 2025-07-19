@@ -48,7 +48,7 @@ Replace the placeholders with your actual Octra wallet details:
 
 ```json
 {
-  "priv": "your-private-key",      // Your Octra Private Key
+  "priv": "your-private-key",      // Your Octra Private Key (B64)
   "addr": "octxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", // Your Octra Address
   "rpc": "https://octra.network"
 }
