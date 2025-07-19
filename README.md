@@ -23,7 +23,8 @@ chmod +x ./wallet-generator.sh
 After you generate your Octra address, claim your free test tokens here:
  [Octra Testnet Faucet](https://faucet.octra.network/)
 
-Just enter your Octra address (starts with 'oct'), complete the captcha, and click claim. You can request tokens once every 5 days.
+Just enter your Octra address (starts with 'oct'), complete the captcha, and click claim. 
+You can request tokens once every 5 days.
 
 ## Tesnet 2&3 Task
 
