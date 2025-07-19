@@ -41,14 +41,25 @@ cp wallet.json.example wallet.json
 ```
 
 3. **Edit your `wallet.json`**
-Swap in your wallet deets:
+Open the file with nano (or your favorite editor):
+
+```bash
+nano wallet.json
+```
+
+Replace the placeholders with your actual Octra wallet details:
+
 ```json
 {
-  "priv": "your-private-key",
-  "addr": "octxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "priv": "your-private-key",      // Your Octra Private Key
+  "addr": "octxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", // Your Octra Address
   "rpc": "https://octra.network"
 }
 ```
+
+*Save the file after editing (in nano: press `Ctrl+O`, then `Enter`, then `Ctrl+X` to exit).*
+
+*Never share your private key with anyone*
 
 4. **Run it!**
 - On Mac/Linux:
